@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+  background: rgb(18,182,223);
+  background: linear-gradient(90deg, rgba(18,182,223,1) 32%, rgba(0,255,207,1) 100%);
+}
+
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-nav {
+  flex-direction: row;
+}
+
+.navbar-nav button:hover {
+  color: #f1f1f1;
+}
+
+ul li {
+  margin: 5px;
+}
+
+#page_container {
+  text-align: center;
+  padding: 10px;
+}
